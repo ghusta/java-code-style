@@ -22,6 +22,10 @@ public class JavaFormatter {
 
     private CodeFormatter codeFormatter;
 
+    public JavaFormatter() {
+        this(null);
+    }
+
     public JavaFormatter(Map<Object, Object> settings) {
         if (settings == null) {
             // if no settings run with jdk 5 as default
@@ -50,7 +54,7 @@ public class JavaFormatter {
             if (edit != null) {
                 edit.apply(doc);
             } else {
-                return false; // most likely syntax errror
+                return false; // most likely syntax error
             }
 
             // write the file
