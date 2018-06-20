@@ -23,8 +23,8 @@
 `org.eclipse.jdt.core.formatter.brace_position_for_*`
 
 | _Chainage de méthodes_
-| Conserver le chainage des méthodes. Utile dans l'écriture de lambdas, ou avec le pattern Builder.
-|
+| Conserver le chainage des méthodes sur plusieurs lignes. Utile dans l'écriture de lambdas, ou avec le pattern Builder.
+| `org.eclipse.jdt.core.formatter.join_wrapped_lines`
 
 | _Autoriser la désactivation temporaire des règles de formatage_
 | Utiliser les tags dans les commentaires : +
