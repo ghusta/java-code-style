@@ -9,8 +9,9 @@
 `org.eclipse.jdt.core.formatter.indentation.size`
 
 | _Largeur de ligne max_
-| 120 pour une résolution HD
-|
+| 120 pour une résolution HD. Idem pour les commentaires.
+| `org.eclipse.jdt.core.formatter.lineSplit` +
+`org.eclipse.jdt.core.formatter.comment.line_length`
 
 | _Nombre de lignes blanches max_
 | Pourquoi 2, alors que 1 suffit ?
