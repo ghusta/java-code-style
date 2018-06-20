@@ -14,8 +14,8 @@
 `org.eclipse.jdt.core.formatter.comment.line_length`
 
 | _Nombre de lignes blanches max_
-| Pourquoi 2, alors que 1 suffit ?
-|
+| Une ligne blanche suffit.
+| `org.eclipse.jdt.core.formatter.number_of_empty_lines_to_preserve`
 
 | _Accolade ouvrante en fin ou en début de ligne_
 | Préférence pour début de ligne, pour une question de lisibilité
