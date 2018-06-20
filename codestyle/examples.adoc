@@ -1,0 +1,27 @@
+= Exemples de règles de formatage (codestyle)
+
+== Google
+
+* Tous langages confondus : https://github.com/google/styleguide
+* Les règles pour *Java* : https://google.github.io/styleguide/javaguide.html
+    ** Fichier _GoogleStyle_ pour Eclipse : https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml
+    ** Fichier _GoogleStyle_ pour IntelliJ : https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml
+
+== Hibernate
+
+Procédure et fichiers pour configurer Eclipse et IntelliJ.
+
+* https://github.com/hibernate/hibernate-ide-codestyles
+
+== WildFly
+
+Autre exemple de configuration ici :
+
+* https://github.com/wildfly/wildfly-core/tree/master/ide-configs
+
+== Plugins utiles
+
+=== IntelliJ
+
+* https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter[Eclipse Code Formatter] : Allows using Eclipse's code formatter directly from IntelliJ.
+* Une alternative à ce plugin : un https://blog.jetbrains.com/idea/2014/01/intellij-idea-13-importing-code-formatter-settings-from-eclipse/[article de blog] explique comment importer le fichier Eclipse, directement avec l'IDE (doc un peu obsolète : 2014)
