@@ -1,0 +1,20 @@
+= Personal preferences
+
+|===
+|Feature |Implementation
+
+| _Indentation : Tabs vs spaces_
+| Utiliser les espaces (pas la valeur par défaut dans Eclipse) [indent = 4]
+
+| _Largeur de ligne max_
+| 120 pour une résolution HD
+
+| _Nombre de lignes blanches max_
+| Pourquoi 2, alors que 1 suffit ?
+
+| _Accolade ouvrante en fin ou en début de ligne_
+| Préférence pour début de ligne, pour une question de lisibilité
+
+| _Chainage de méthodes_
+| Conserver le chainage des méthodes. Utile dans l'écriture de lambdas, ou avec le pattern Builder.
+|===
