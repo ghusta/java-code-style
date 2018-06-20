@@ -58,16 +58,9 @@ public class JavaFormatter {
             }
 
             // write the file
-            final BufferedWriter out = new BufferedWriter(new FileWriter(file));
-            try {
+            try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
                 out.write(doc.get());
                 out.flush();
-            } finally {
-                try {
-                    out.close();
-                } catch (IOException e) {
-                    /* ignore */
-                }
             }
             return true;
         } catch (IOException | BadLocationException e) {
