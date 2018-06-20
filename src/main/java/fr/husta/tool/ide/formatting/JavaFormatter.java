@@ -42,6 +42,9 @@ public class JavaFormatter {
      * Throws exception if not possible to read or write the file.
      * Returns true if formatting went ok; returns false if the formatting could not finish because of errors in the input.
      *
+     * <p>
+     *     <b>Note</b> : very similar to {@link org.eclipse.jdt.core.formatter.CodeFormatterApplication#formatFile(File, CodeFormatter)}.
+     * </p>
      * @param file
      * @return
      */

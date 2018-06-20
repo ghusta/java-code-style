@@ -11,3 +11,14 @@ Find code formatter file in :
 ## Other details
 
 See details in [Contribution guide](CONTRIBUTING.md).
+
+## Eclipse JDT Core Code Formatter internal details
+
+Useful classes for handling code formatting settings :
+
+* `org.eclipse.jdt.core.formatter.DefaultCodeFormatterConstants` : Constants used to set up the options of the code formatter.
+    * Example : `FORMATTER_BLANK_LINES_AFTER_IMPORTS` > `"org.eclipse.jdt.core.formatter.blank_lines_after_imports"`
+* For creating Map of settings : 
+    * `org.eclipse.jdt.core.formatter.DefaultCodeFormatterConstants#getEclipseDefaultSettings()`
+    * `org.eclipse.jdt.core.formatter.DefaultCodeFormatterConstants#getJavaConventionsSettings()`
+    
