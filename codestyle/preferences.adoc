@@ -18,8 +18,9 @@
 | `org.eclipse.jdt.core.formatter.number_of_empty_lines_to_preserve`
 
 | _Accolade ouvrante en fin ou en début de ligne_
-| Préférence pour début de ligne, pour une question de lisibilité
-|
+| Préférence pour début de ligne, pour une question de lisibilité. Pour les corps de lambda, ajout d'indentation (experimental).
+| Multiples (class declaration, method declaration, block, etc.) : +
+`org.eclipse.jdt.core.formatter.brace_position_for_*`
 
 | _Chainage de méthodes_
 | Conserver le chainage des méthodes. Utile dans l'écriture de lambdas, ou avec le pattern Builder.
@@ -27,7 +28,7 @@
 
 | _Autoriser la désactivation temporaire des règles de formatage_
 | Utiliser les tags dans les commentaires : +
-`// @formatter:[on\|off]`.
+`// @formatter:[on\|off]`
 | `org.eclipse.jdt.core.formatter.use_on_off_tags`
 
 |===
